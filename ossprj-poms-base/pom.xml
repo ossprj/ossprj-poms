@@ -59,17 +59,30 @@
                 <version>7.0.1.Final</version>
             </dependency>
 
-            <!-- Commons (Apache) -->
+            <!-- BEncode -->
             <dependency>
+                <groupId>com.dampcake</groupId>
+                <artifactId>bencode</artifactId>
+                <version>1.3.2</version>
+            </dependency>
+
+            <!-- Commons (Apache) -->
+            <!--<dependency>
                 <groupId>commons-codec</groupId>
                 <artifactId>commons-codec</artifactId>
                 <version>20041127.091804</version>
-            </dependency>
+            </dependency>-->
 
-            <!-- Commons File (ossprj) -->
+            <!-- Commons (ossprj) -->
             <dependency>
                 <groupId>com.ossprj.commons</groupId>
                 <artifactId>ossprj-commons-file</artifactId>
+                <version>1.0.0-SNAPSHOT</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.ossprj.commons</groupId>
+                <artifactId>ossprj-commons-torrent</artifactId>
                 <version>1.0.0-SNAPSHOT</version>
             </dependency>
 
@@ -135,19 +148,6 @@
                 <artifactId>swagger-annotations</artifactId>
                 <version>2.1.2</version>
             </dependency>
-
-            <!-- TTorrent -->
-            <dependency>
-                <groupId>com.turn</groupId>
-                <artifactId>ttorrent-core</artifactId>
-                <version>1.5</version>
-            </dependency>
-            <dependency>
-                <groupId>com.turn</groupId>
-                <artifactId>ttorrent-cli</artifactId>
-                <version>1.5</version>
-            </dependency>
-
 
         </dependencies>
     </dependencyManagement>
