@@ -2,37 +2,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>ossprj-poms</artifactId>
+
+    <groupId>com.ossprj.poms</groupId>
+    <artifactId>ossprj-poms-parent</artifactId>
     <version>1.0.0</version>
     <packaging>pom</packaging>
-
-    <parent>
-        <groupId>com.ossprj.poms</groupId>
-        <artifactId>ossprj-poms-base</artifactId>
-        <version>1.0.0</version>
-        <relativePath/>
-    </parent>
-
-    <dependencyManagement>
-        <dependencies>
-            <!-- Commons (ossprj) -->
-            <dependency>
-                <groupId>com.ossprj.commons</groupId>
-                <artifactId>ossprj-commons-constraint</artifactId>
-                <version>1.0.0</version>
-            </dependency>
-            <dependency>
-                <groupId>com.ossprj.commons</groupId>
-                <artifactId>ossprj-commons-file</artifactId>
-                <version>1.0.0</version>
-            </dependency>
-            <dependency>
-                <groupId>com.ossprj.commons</groupId>
-                <artifactId>ossprj-commons-torrent</artifactId>
-                <version>1.0.0</version>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
 
     <modules>
         <module>ossprj-poms-service</module>
