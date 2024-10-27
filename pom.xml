@@ -5,10 +5,11 @@
 
     <groupId>com.ossprj.poms</groupId>
     <artifactId>ossprj-poms-parent</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <modules>
+        <module>ossprj-poms-model</module>
         <module>ossprj-poms-service</module>
     </modules>
 
